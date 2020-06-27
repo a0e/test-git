@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="account_inherit" inherit_id="portal.portal_my_details" name="Account Inherit Page">
+        <xpath expr="//label[@for='company_name']/.." position="replace">
+        </xpath>
+        
+        
+        <xpath expr="//label[@for='vat']/.." position="replace">    
+        </xpath>
+        
+        <xpath expr="//label[@for='zipcode']/.." position="replace">    
+        </xpath>
+     </template>
+    
+</odoo>
+
